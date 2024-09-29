@@ -6,14 +6,14 @@ export default [
     course: "Computer Science",
     level: "300 Level",
     gender: "Male",
-    image: "hashid.jpg",
+    image: "hashidu.jpg",
   },
   {
     name: "AbdulSalam Onimis",
     state: "Kogi",
     institution: "FUT Minna",
     course: "Micro Biology",
-    level: "300 Level",
+    level: "200 Level",
     gender: "Male",
     image: "hashid.jpg",
   },
@@ -33,7 +33,7 @@ export default [
     course: "Computer Science",
     level: "300 Level",
     gender: "Male",
-    image: "hashid.jpg",
+    image: "aminu.jpg",
   },
   {
     name: "Musa Kazim",
@@ -42,7 +42,7 @@ export default [
     course: "Computer Engineering",
     level: "300 Level",
     gender: "Male",
-    image: "hashid.jpg",
+    image: "musa.jpg",
   },
   {
     name: "Salihu Abass Onimisi",
@@ -51,6 +51,6 @@ export default [
     course: "Mathematics",
     level: "300 Level",
     gender: "Male",
-    image: "hashid.jpg",
+    image: "abass.jpg",
   },
 ];
