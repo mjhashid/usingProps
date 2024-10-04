@@ -19,9 +19,15 @@ const Card = (props) => {
       <div className="font-bold">Institution: {props.institution}</div>
       <div className="font-bold">Course: {props.course}</div>
       <p className="font-bold">Gender: {props.gender}</p>
-      <p className="text-center font-bold mt-9 p-2 rounded bg-green-500 text-white text-">
-        {props.level}
-      </p>
+      {props.level === "graduated" ? (
+        <p className="text-center font-bold mt-9 p-2 rounded bg-green-500 text-white text-">
+          {props.level}
+        </p>
+      ) : (
+        <p className="text-center font-bold mt-9 p-2 rounded bg-orange-400 text-white text-">
+          {props.level}
+        </p>
+      )}
     </section>
   );
 };
