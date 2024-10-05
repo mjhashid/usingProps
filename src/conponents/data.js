@@ -21,7 +21,7 @@ export default [
     name: "Obans Unoiza Habibat",
     state: "Kogi",
     institution: "Ahmadu Bello University",
-    course: "Botani",
+    course: "Botany",
     level: "Graduated",
     gender: "Female",
     image: "beebah.JPG",

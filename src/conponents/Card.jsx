@@ -19,7 +19,7 @@ const Card = (props) => {
       <div className="font-bold">Institution: {props.institution}</div>
       <div className="font-bold">Course: {props.course}</div>
       <p className="font-bold">Gender: {props.gender}</p>
-      {props.level === "graduated" ? (
+      {props.level === "Graduated" ? (
         <p className="text-center font-bold mt-9 p-2 rounded bg-green-500 text-white text-">
           {props.level}
         </p>
